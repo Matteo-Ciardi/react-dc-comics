@@ -3,7 +3,7 @@ import './MyHeader.css'
 const MyHeader = () => {
     return (
         <header>
-            <div className="background">
+            <div className="position">
                 <figure>
                     <img src="../../src/assets/img/dc-logo.png" alt="Logo" />
                 </figure>

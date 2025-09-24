@@ -2,11 +2,11 @@ header {
     background-color: white;
 }
 
-.background {
+.position {
     display: flex;
     justify-content: space-around;
 }
 
-ul {
+header ul {
     display: flex;
 }
