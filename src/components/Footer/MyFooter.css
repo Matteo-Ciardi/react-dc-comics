@@ -1,12 +1,18 @@
-footer h3 {
-    color: white;
+.footerBg {
+    background-image: url(../../assets/img/footer-bg.jpg);
 }
 
-.footer-top {
+.footerContainer {
     display: flex;
-    background-image: url(../../assets/img/footer-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    width: 70%;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+footer h3 {
+    color: white;
 }
 
 .footer-bottom {
