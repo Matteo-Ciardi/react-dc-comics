@@ -1,7 +1,18 @@
-.shop-style {
+.shopStyle {
     background-color: dodgerblue;
     height: 200px;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
+
+/* ITEM */
+.itemPosition {
+    display: flex;
+    align-items: center;
+}
+
+.itemImage {
+    margin-right: 25px;
+}
+

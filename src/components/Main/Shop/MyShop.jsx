@@ -2,9 +2,33 @@ import './MyShop.css'
 
 const MyShop = () => {
     return (
-        <div className='shop-style'>
-            <img src='../../src/assets/img/buy-comics-digital-comics.png'></img>
-            <span>DIGITAL COMICS</span>
+        <div className='shopStyle'>
+
+            <figure className='itemPosition'>
+                <img className='itemImage' src='../../src/assets/img/buy-comics-digital-comics.png'></img>
+                <figcaption className='itemName'><a href='#'>DIGITAL COMICS</a></figcaption>
+            </figure>
+
+            <figure className='itemPosition'>
+                <img className='itemImage' src='../../src/assets/img/buy-comics-merchandise.png'></img>
+                <figcaption className='itemName'><a href='#'>DIGITAL COMICS</a></figcaption>
+            </figure>
+
+            <figure className='itemPosition'>
+                <img className='itemImage' src='../../src/assets/img/buy-comics-subscriptions.png'></img>
+                <figcaption className='itemName'><a href='#'>DIGITAL COMICS</a></figcaption>
+            </figure>
+
+            <figure className='itemPosition'>
+                <img className='itemImage' src='../../src/assets/img/buy-comics-shop-locator.png'></img>
+                <figcaption className='itemName'><a href='#'>DIGITAL COMICS</a></figcaption>
+            </figure>
+
+            <figure className='itemPosition'>
+                <img className='itemImage' src='../../src/assets/img/buy-dc-power-visa.svg'></img>
+                <figcaption className='itemName'><a href='#'>DIGITAL COMICS</a></figcaption>
+            </figure>
+
         </div>
     )
 }
