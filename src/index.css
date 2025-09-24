@@ -1,4 +1,21 @@
+/* CSS RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Generics */
 body {
   background-color: #000000;
   font-family: "Open Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul, 
+ol {
+  list-style-type: none;
 }

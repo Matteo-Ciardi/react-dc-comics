@@ -3,9 +3,9 @@ import './MyHeader.css'
 const MyHeader = () => {
     return (
         <header>
-            <div className="position">
+            <div className="headerContainer">
                 <figure>
-                    <img src="../../src/assets/img/dc-logo.png" alt="Logo" />
+                    <img className='logoImage' src="../../src/assets/img/dc-logo.png" alt="Logo" />
                 </figure>
                 <nav>
                     <ul>
