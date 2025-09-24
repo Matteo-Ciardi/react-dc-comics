@@ -1,3 +1,8 @@
-.provvisorio {
+.mainTitle {
     color: white;
+}
+
+.mainContainer {
+    width: 70%;
+    margin: 0 auto;
 }

@@ -4,7 +4,9 @@ import MyShop from "./shop/MyShop"
 const MyMain = () => {
     return (
         <main>
-            <h1 className='provvisorio'> -- content goes here -- </h1>
+            <div className='mainContainer'>
+                <h1 className='mainTitle'> -- content goes here -- </h1>
+            </div>
             <MyShop />
         </main>
     )
