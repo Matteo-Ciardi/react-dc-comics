@@ -1,6 +1,4 @@
 import MyHeader from "./components/Header/MyHeader"
-// import MyMain from "./components/MyMain"
-// import MyFooter from "./components/MyFooter"
 import './App.css'
 
 function App() {
@@ -8,8 +6,6 @@ function App() {
   return (
     <>
       <MyHeader />
-      {/* <MyMain />
-      <MyFooter /> */}
     </>
   )
 }
