@@ -1,9 +1,14 @@
-.shopStyle {
+.shopBgColor {
     background-color: dodgerblue;
-    height: 200px;
+}
+
+.shopContainer {
+    width: 65%;
+    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    padding: 50px 0;
 }
 
 /* ITEM */
@@ -16,3 +21,6 @@
     margin-right: 25px;
 }
 
+.itemName a {
+    color: #ffffff;
+}

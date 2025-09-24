@@ -5,7 +5,7 @@ const MyMain = () => {
     return (
         <main>
             <div className='mainContainer'>
-                <h1 className='mainTitle'> -- content goes here -- </h1>
+                <h1 className='mainTitle'> -- Content goes here -- </h1>
             </div>
             <MyShop />
         </main>
