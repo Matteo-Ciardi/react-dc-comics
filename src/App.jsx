@@ -1,4 +1,4 @@
-import MyHeader from "./components/MyHeader"
+import MyHeader from "./components/Header/MyHeader"
 // import MyMain from "./components/MyMain"
 // import MyFooter from "./components/MyFooter"
 import './App.css'
