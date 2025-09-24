@@ -1,5 +1,5 @@
 import MyHeader from "./components/Header/MyHeader"
-import MyShop from "./components/Main/Shop/MyShop"
+import MyMain from "./components/Main/MyMain"
 import MyFooter from "./components/Footer/MyFooter"
 import './App.css'
 
@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <MyHeader />
-      <MyShop />
+      <MyMain />
       <MyFooter />
     </>
   )
