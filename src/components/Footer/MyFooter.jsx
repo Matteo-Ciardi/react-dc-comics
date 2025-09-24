@@ -3,7 +3,7 @@ import './MyFooter.css'
 const MyFooter = () => {
     return (
         <footer>
-            <div className="footer-top">
+            <section className="footer-top">
                 <nav>
                     <ul>
                         <li><h3>DC COMICS</h3></li>
@@ -50,10 +50,22 @@ const MyFooter = () => {
                     </ul>
                 </nav>
 
-            </div>
-            <div className='footer-bottom'>
+            </section>
+            <section className='footer-bottom'>
+                <div>
+                    <button>SIGN-UP NOW!</button>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href='#'>facebook</a></li>
+                        <li><a href='#'>twitter</a></li>
+                        <li><a href='#'>youtube</a></li>
+                        <li><a href='#'>pinterest</a></li>
+                        <li><a href='#'>periscope</a></li>
+                    </ul>
+                </nav>
 
-            </div>
+            </section>
         </footer>
     )
 }

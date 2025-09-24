@@ -6,3 +6,13 @@ footer h3 {
     display: flex;
     background-image: url(../../assets/img/footer-bg.jpg);
 }
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-around;
+    background-color: grey;
+}
+
+.footer-bottom ul {
+    display: flex;
+}
