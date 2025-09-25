@@ -5,4 +5,13 @@
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    justify-content: center;
+}
+
+.loadButton {
+    background-color: dodgerblue;
+    padding: 5px 50px;
+    color: #ffffff;
+    border: 1px solid dodgerblue;
+    cursor: pointer;
 }

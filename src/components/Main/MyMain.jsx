@@ -9,6 +9,7 @@ const MyMain = () => {
             <MyHero />
             <div className='mainContainer'>
                 <MyCard />
+                <button className='loadButton'>LOAD MORE</button>
             </div>
             <MyShop />
         </main>
