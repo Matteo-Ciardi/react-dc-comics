@@ -54,19 +54,32 @@ const MyFooter = () => {
 
             </section>
             <section className='footer-bottom'>
-                <div>
-                    <button>SIGN-UP NOW!</button>
-                </div>
-                <nav>
-                    <ul>
-                        <li><a href='#'>facebook</a></li>
-                        <li><a href='#'>twitter</a></li>
-                        <li><a href='#'>youtube</a></li>
-                        <li><a href='#'>pinterest</a></li>
-                        <li><a href='#'>periscope</a></li>
-                    </ul>
-                </nav>
 
+                <div className='footerBottomContainer'>
+                    <div>
+                        <button className='signUpButton'>SIGN-UP NOW!</button>
+                    </div>
+                    <nav className='socialNav'>
+                        <span className='followUs'>FOLLOW US</span>
+                        <ul className='socialList'>
+                            <li>
+                                <a href='#'><img src='../../src/assets/img/footer-facebook.png'></img></a>
+                            </li>
+                            <li>
+                                <a href='#'><img src='../../src/assets/img/footer-twitter.png'></img></a>
+                            </li>
+                            <li>
+                                <a href='#'><img src='../../src/assets/img/footer-youtube.png'></img></a>
+                            </li>
+                            <li>
+                                <a href='#'><img src='../../src/assets/img/footer-pinterest.png'></img></a>
+                            </li>
+                            <li>
+                                <a href='#'><img src='../../src/assets/img/footer-periscope.png'></img></a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
             </section>
         </footer>
     )
