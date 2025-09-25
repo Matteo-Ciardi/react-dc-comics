@@ -1,10 +1,12 @@
+import MyHero from './Hero/MyHero'
 import MyCard from './Card/MyCard'
-import './MyMain.css'
 import MyShop from "./shop/MyShop"
+import './MyMain.css'
 
 const MyMain = () => {
     return (
         <main>
+            <MyHero />
             <div className='mainContainer'>
                 <MyCard />
             </div>

@@ -1,0 +1,6 @@
+.hero {
+    background-image: url(../../../src/assets/img/jumbotron.jpg) ;
+    height:395px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
