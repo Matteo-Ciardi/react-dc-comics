@@ -31,7 +31,7 @@ const MyShop = () => {
                 </figure>
 
                 <figure className='itemPosition'>
-                    <a href='#'><img className='itemImage' src='../../src/assets/img/buy-dc-power-visa.svg'></img>
+                    <a href='#'><img className='itemImage' id='svgCreditCard' src='../../src/assets/img/buy-dc-power-visa.svg'></img>
                     </a>
                     <figcaption className='itemName'><a href='#'>DC POWER VISA</a></figcaption>
                 </figure>

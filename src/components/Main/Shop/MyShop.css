@@ -21,6 +21,10 @@
     margin-right: 25px;
 }
 
+#svgCreditCard {
+    width: 50px;
+}
+
 .itemName a {
     color: #ffffff;
 }
