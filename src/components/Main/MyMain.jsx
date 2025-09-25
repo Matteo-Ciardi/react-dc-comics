@@ -1,3 +1,4 @@
+import MyCard from './Card/MyCard'
 import './MyMain.css'
 import MyShop from "./shop/MyShop"
 
@@ -5,7 +6,7 @@ const MyMain = () => {
     return (
         <main>
             <div className='mainContainer'>
-                <h1 className='mainTitle'> -- Content goes here -- </h1>
+                <MyCard />
             </div>
             <MyShop />
         </main>
