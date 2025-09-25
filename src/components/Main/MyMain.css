@@ -1,3 +1,16 @@
+.label {
+    color: #ffffff;
+    background-color: #0282f9;
+    position: absolute;
+    z-index: 1000;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    transform: translate(0%, -50%);
+    top: -50px;
+    left: 0;
+}
+
 .mainContainer {
     width: 70%;
     margin: 0 auto;
@@ -5,6 +18,7 @@
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
+    position: relative;
 }
 
 .loadButton {

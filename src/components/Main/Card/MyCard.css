@@ -1,6 +1,5 @@
 .card {
     width: 185px;
-
 }
 
 .cardThumb {
@@ -10,5 +9,5 @@
 
 .title {
     color: #ffffff;
-    font-size: 0.9rem;
+    font-size: 0.85rem;
 }

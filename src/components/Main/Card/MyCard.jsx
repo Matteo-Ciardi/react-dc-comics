@@ -6,8 +6,8 @@ const MyCard = () => {
         <>
             {comics.map((item) => (
                 <div key={item.id} className='card'>
-                    <img className='cardThumb' src={item.thumb} alt={item.title} />
-                    <span className='title'>{item.series.toUpperCase()}</span>
+                    <a href='#'><img className='cardThumb' src={item.thumb} alt={item.title} /></a>
+                    <span className='title'><a href='#'>{item.series.toUpperCase()}</a></span>
                 </div>
             ))}
         </>
