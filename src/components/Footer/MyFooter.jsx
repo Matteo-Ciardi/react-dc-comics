@@ -6,7 +6,7 @@ const MyFooter = () => {
             <section className="footerBg">
                 <div className='footerContainer'>
                     <nav>
-                        <ul>
+                        <ul className='topNav'>
                             <li><h3>DC COMICS</h3></li>
                             <li><a href="#">Characters</a></li>
                             <li><a href="#">Comics</a></li>

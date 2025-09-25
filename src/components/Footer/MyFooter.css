@@ -1,24 +1,38 @@
 .footerBg {
     background-image: url(../../assets/img/footer-bg.jpg);
+    background-size: cover;
 }
 
 .footerContainer {
     display: flex;
-    background-repeat: no-repeat;
-    background-size: cover;
     width: 70%;
     margin: 0 auto;
     padding: 40px 0;
 }
 
+.footerContainer nav {
+    margin-right: 20px;
+}
+
+.topNav {
+    margin-bottom: 20px;
+}
+
 footer h3 {
     color: white;
+    margin-bottom: 10px;
 }
 
-.footerBg a {
-    color: #ffffff;
+.footerContainer li {
+    line-height: 17px;
 }
 
+.footerContainer a {
+    color: rgb(148, 146, 146);
+    font-size: 0.7rem;
+}
+
+/* Footer bottom */
 .footerBottomContainer {
     width: 70%;
     margin: 0 auto;
@@ -27,10 +41,9 @@ footer h3 {
     align-items: center;
 }
 
-/* Footer bottom */
 .footer-bottom {
-    background-color: #202020;
-    padding: 40px 0;
+    background-color: #303030;
+    padding: 25px 0;
 }
 
 .signUpButton {
@@ -59,5 +72,5 @@ footer h3 {
 }
 
 .socialList li {
-    margin-left: 15px;
+    margin-left: 10px;
 }
