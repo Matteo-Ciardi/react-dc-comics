@@ -13,15 +13,15 @@
 }
 
 .footerContainer nav {
-    margin-right: 20px;
+    margin-right: 50px;
 }
 
 .topNav {
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 footer h3 {
-    font-size: 1.1rem;
+    font-size: 1.4rem;
     color: white;
     margin-bottom: 10px;
 }
@@ -59,7 +59,7 @@ footer h3 {
 }
 
 .followUs {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     color: #0381f9;
     font-weight: 600;
     margin-right: 20px;

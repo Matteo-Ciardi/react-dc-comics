@@ -1,0 +1,11 @@
+header ul {
+    display: flex;
+}
+
+header ul a {
+    color: #000000;
+    margin: 0 10px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    transform: scaleY(1.3);
+}
