@@ -1,6 +1,8 @@
 .footerBg {
-    background-image: url(../../assets/img/footer-bg.jpg);
-    background-size: cover;
+    background-image: url(../../assets/img/dc-logo-bg.png), url(../../assets/img/footer-bg.jpg);
+    background-size: 30%, cover;
+    background-repeat: no-repeat;
+    background-position: 75%, center;
 }
 
 .footerContainer {
