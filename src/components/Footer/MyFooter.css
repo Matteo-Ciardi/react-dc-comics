@@ -27,12 +27,16 @@ footer h3 {
 }
 
 .footerContainer li {
-    line-height: 17px;
+    line-height: 20px;
 }
 
 .footerContainer a {
     color: rgb(148, 146, 146);
-    font-size: 0.8rem;
+    font-size: 0.9rem;
+}
+
+.footerContainer a:hover {
+    color: rgb(169, 168, 168);
 }
 
 /* Footer bottom */
@@ -58,6 +62,11 @@ footer h3 {
     cursor: pointer;
 }
 
+.signUpButton:hover {
+    border: 2px solid #379bf9;
+    background-color: #379bf9;
+}
+
 .followUs {
     font-size: 1.4rem;
     color: #0381f9;
@@ -76,4 +85,15 @@ footer h3 {
 
 .socialList li {
     margin-left: 10px;
+}
+
+.socialList li a img {
+    transition: filter 0.3s ease;
+    filter: grayscale(0%) brightness(100%);
+    transform: scale(1);
+}
+
+.socialList li:hover a img {
+    filter: grayscale(100%) brightness(75%);
+    transform: scale(1.1);
 }
