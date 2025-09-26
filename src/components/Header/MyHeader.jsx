@@ -6,7 +6,7 @@ const MyHeader = () => {
         <header>
             <div className="headerContainer">
                 <figure>
-                    <img className='logoImage' src="../../src/assets/img/dc-logo.png" alt="Logo" />
+                    <a href='#'><img className='logoImage' src="../../src/assets/img/dc-logo.png" alt="Logo" /></a>
                 </figure>
                 <MyNavBar />
             </div>

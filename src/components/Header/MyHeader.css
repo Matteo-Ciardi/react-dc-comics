@@ -5,6 +5,12 @@ header {
 
 .logoImage {
     height: 80px;
+    transition: transform 0.3s ease;
+}
+
+.logoImage:hover {
+    transform: scale(1.1) rotate(-15deg);
+    filter: drop-shadow(0 6px 12px rgba(0, 0, 0, 0.35));
 }
 
 .headerContainer {
