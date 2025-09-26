@@ -1,5 +1,5 @@
 import MyHero from './Hero/MyHero'
-import MyCard from './Card/MyCard'
+import CardList from './ProductList/CardList'
 import MyShop from "./shop/MyShop"
 import './MyMain.css'
 
@@ -9,8 +9,7 @@ const MyMain = () => {
             <MyHero />
             <div className='mainContainer'>
                 <div className='label'>CURRENT SERIES</div>
-                <MyCard />
-                <button className='loadButton'>LOAD MORE</button>
+                <CardList />
             </div>
             <MyShop />
         </main>

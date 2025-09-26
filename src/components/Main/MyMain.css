@@ -14,20 +14,5 @@
 .mainContainer {
     width: 70%;
     margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
     position: relative;
-}
-
-.loadButton {
-    background-color: #0282f9;
-    padding: 10px 50px;
-    color: #ffffff;
-    border: 1px solid #0282f9;
-    cursor: pointer;
-    margin-top: 30px;
-    font-weight: 600;
-    font-size: 0.9rem;
 }
