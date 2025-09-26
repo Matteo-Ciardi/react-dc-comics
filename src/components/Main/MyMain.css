@@ -12,7 +12,9 @@
 }
 
 .mainContainer {
-    width: 70%;
+    width: 63.22%;
     margin: 0 auto;
     position: relative;
+    display: flex;
+    justify-content: center;
 }
