@@ -7,7 +7,9 @@ const MyNavBar = () => {
             <ul>
                 {navItem.map((item, index) => (
                     <li key={index}>
-                        <a href={item.href}>{item.label}</a>
+                        <a href={item.href}
+                            className={item.active ? "active" : ""}>
+                            {item.label}</a>
                     </li>
                 ))}
             </ul>
